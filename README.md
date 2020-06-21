@@ -16,7 +16,7 @@
 - vagrant halt: dừng các máy ảo đang chạy
 - vagrant help: hướng dẫn về các lệnh khác.
 
-(*) Các lệnh trên hầu hết có ảnh hưởng trong thư mục đang chạy.
+> (*) Các lệnh trên hầu hết có ảnh hưởng trong thư mục đang chạy.
 
 ## Docker
 Docker là một nền tảng cho developers và sysadmin để develop, deploy và run application với container. Nó cho phép tạo các môi trường độc lập và tách biệt để khởi chạy và phát triển ứng dụng và môi trường này được gọi là container. Khi cần deploy lên bất kỳ server nào chỉ cần run container của Docker thì application của bạn sẽ được khởi chạy ngay lập tức.
@@ -33,15 +33,15 @@ Docker là một nền tảng cho developers và sysadmin để develop, deploy 
 
 ##### Commands
 - `docker images`: xem danh sách các images.
-- docker ps: xem danh sách container đang chạy.
-- docker ps -a: xem tất cả container
-- docker run: để chạy nhanh 1 container từ image.
-- docker exec -ti <container_name> <bash|sh>: ssh vào container sử dụng shell là bash hoặc sh
-- docker-compose up: để chạy các containers thông qua file cấu hình trong docker-compose.yml
-- docker-compose up --build: build và chạy các containers thông qua file cấu hình trong docker-compose.yml
-- docker-compose stop: dừng các container đang chạy trong file cấu hình trong docker-compose.yml.
-- docker-compose down: remove các containers đang chạy trong file cấu hình trong docker-compose.yml.
-- docker help: hướng dẫn về các lệnh khác của docker. 
-- docker-compose help: hướng dẫn về các lệnh khác của docker-compose
+- `docker ps`: xem danh sách container đang chạy.
+- `docker ps -a`: xem tất cả container
+- `docker run ...`: để chạy nhanh 1 container từ image.
+- `docker exec -ti <container_name> <bash|sh>`: ssh vào container sử dụng shell là bash hoặc sh
+- `docker-compose up`: để chạy các containers thông qua file cấu hình trong docker-compose.yml
+- `docker-compose up --build`: build và chạy các containers thông qua file cấu hình trong docker-compose.yml
+- `docker-compose stop`: dừng các container đang chạy trong file cấu hình trong docker-compose.yml.
+- `docker-compose down`: remove các containers đang chạy trong file cấu hình trong docker-compose.yml.
+- `docker help`: hướng dẫn về các lệnh khác của docker. 
+- `docker-compose help`: hướng dẫn về các lệnh khác của docker-compose
 
 
