@@ -1,0 +1,37 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.define "api_php" do |web|
+    web.vm.box = "bhuisgen/alpine-3.12-x86_64"
+    web.vm.hostname = "api"
+
+    web.vm.provision "shell", inline: <<-SHELL
+
+      sudo hostname
+
+    SHELL
+
+  end
+
+  config.vm.define "db_mysql" do |db|
+    db.vm.box = "bhuisgen/alpine-3.12-x86_64"
+    db.vm.hostname = "db"
+
+    db.vm.provision "shell", inline: <<-SHELL
+
+      sudo hostname
+
+    SHELL
+  end
+
+  config.vm.define "frontend_nuxtjs" do |fe|
+    fe.vm.box = "bhuisgen/alpine-3.12-x86_64"
+    fe.vm.hostname = "fe"
+
+    fe.vm.provision "shell", inline: <<-SHELL
+
+      sudo hostname
+
+    SHELL
+  end
+
+end

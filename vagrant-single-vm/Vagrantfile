@@ -1,0 +1,4 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "bhuisgen/alpine-3.12-x86_64"
+  config.vm.box_version = "1.0.1591204189"
+end
