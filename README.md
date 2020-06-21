@@ -1,7 +1,7 @@
 
 ## Vagrant 
 1. Định nghĩa
-Vagrant là 1 công cụ, 1 giải pháp để xây dựng và quản lý các máy ảo.
+- Vagrant là 1 công cụ, 1 giải pháp để xây dựng và quản lý các máy ảo.
 
 2. Keywords
 - box: những template có sẳn mà bạn hoặc cộng đồng đóng góp
