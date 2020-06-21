@@ -10,11 +10,11 @@
 - cloud: là store để lưu trữ các box, bạn có thể tìm kiểm trên đó. URL: https://app.vagrantup.com/boxes/search
 
 ##### Commands
-- vagrant box list: xem danh sách các box template đang có ở máy.
-- vagrant up: Chay máy ảo từ file mà bạn config (Vagrantfile), nếu chạy lần đầu sẽ down box và tạo mới máy ảo.
-- vagrant status: Xem trạng thái hiện tại có 
-- vagrant halt: dừng các máy ảo đang chạy
-- vagrant help: hướng dẫn về các lệnh khác.
+- `vagrant box list`: xem danh sách các box template đang có ở máy.
+- `vagrant up`: Chay máy ảo từ file mà bạn config (Vagrantfile), nếu chạy lần đầu sẽ down box và tạo mới máy ảo.
+- `vagrant status`: Xem trạng thái hiện tại có 
+- `vagrant halt`: dừng các máy ảo đang chạy
+- `vagrant help`: hướng dẫn về các lệnh khác.
 
 > (*) Các lệnh trên hầu hết có ảnh hưởng trong thư mục đang chạy.
 
