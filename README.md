@@ -9,7 +9,7 @@
 - Vagrantfile: là file cấu hình mặc định mà vagrant hiểu và có thể chạy nó.
 - cloud: là store để lưu trữ các box, bạn có thể tìm kiểm trên đó. URL: https://app.vagrantup.com/boxes/search
 
-* Commands
+##### Commands
 - vagrant box list: xem danh sách các box template đang có ở máy.
 - vagrant up: Chay máy ảo từ file mà bạn config (Vagrantfile), nếu chạy lần đầu sẽ down box và tạo mới máy ảo.
 - vagrant status: Xem trạng thái hiện tại có 
@@ -21,7 +21,7 @@
 ## Docker
 Docker là một nền tảng cho developers và sysadmin để develop, deploy và run application với container. Nó cho phép tạo các môi trường độc lập và tách biệt để khởi chạy và phát triển ứng dụng và môi trường này được gọi là container. Khi cần deploy lên bất kỳ server nào chỉ cần run container của Docker thì application của bạn sẽ được khởi chạy ngay lập tức.
 
-* Keywords
+##### Keywords
 - image: là các container template mà bạn hoặc cộng đồng đóng góp
 - container: là một máy ảo (của docker), được tạo ra từ image.
 - registry: là store để lưu trữ các image.
@@ -31,8 +31,8 @@ Docker là một nền tảng cho developers và sysadmin để develop, deploy 
 - Docker Swarm, k8s: giải pháp chạy docker trên production. Rất phù hợp cho microservices.
 
 
-* Commands
-- docker images: xem danh sách các images.
+##### Commands
+- `docker images`: xem danh sách các images.
 - docker ps: xem danh sách container đang chạy.
 - docker ps -a: xem tất cả container
 - docker run: để chạy nhanh 1 container từ image.
