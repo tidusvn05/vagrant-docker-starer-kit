@@ -10,5 +10,13 @@
 - Vagrantfile: là file cấu hình mặc định mà vagrant hiểu và có thể chạy nó.
 - cloud: là store để lưu trữ các box, bạn có thể tìm kiểm trên đó. URL: https://app.vagrantup.com/boxes/search
 
+3. Commands
+- vagrant box list: xem danh sách các box template đang có ở máy.
+- vagrant up: Chay máy ảo từ file mà bạn config (Vagrantfile), nếu chạy lần đầu sẽ down box và tạo mới máy ảo.
+- vagrant status: Xem trạng thái hiện tại có 
+- vagrant halt: dừng các máy ảo đang chạy
+
+(*) Các lệnh trên hầu hết có ảnh hưởng trong thư mục đang chạy.
+
 ## Docker
 
